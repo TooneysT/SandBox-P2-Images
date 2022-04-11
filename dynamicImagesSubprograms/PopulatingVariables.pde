@@ -1,14 +1,14 @@
 void populatingVariables()
 {
   //Populating Variables
-  pic1 = loadImage("Obi-wan-star-wars-jedi-23864621-800-600.jpg"); //Dimensions: 800 width, 600 height
-  pic2 = loadImage("bike.jpg"); //Dimensions: 860 width, 529 height
+  pic1 = loadImage("20200429211042-GettyImages-1164615296.jpeg"); //Dimensions: 2000 width, 1333 height 
+  pic2 = loadImage("canada-in-pictures-beautiful-places-to-photograph-morraine-lake.jpg"); //Dimensions: 730 width, 485 height
   //
   //Aspect Ration Calculations
-  int pic1Width = 800; //NOTE: mine not yours
-  int pic1Height = 600; //NOTE: mine not yours
-  int pic2Width = 860; //NOTE: mine not yours
-  int pic2Height = 529; //NOTE: mine not yours
+  int pic1Width = 2000;
+  int pic1Height = 1333; 
+  int pic2Width = 730; 
+  int pic2Height = 485; 
   //
   //Choosing larger image dimension
   if ( pic1Width >= pic1Height ) { //ID Larger Dimension: Landscape and Square
